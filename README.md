@@ -2,6 +2,7 @@
 
 
 ## 学习环境：
+- 电脑：Windows11系统 / MacOS系统
 - 解释器版本：python 3.12.10    
     https://www.python.org/downloads/release/python-31210/
 - 代码编辑器/IDE：Pycharm    
