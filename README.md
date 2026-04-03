@@ -14,4 +14,4 @@
 2. 从官网下载安装python解释器3.12.10
 3. 从官网下载安装pycharm2026.1（PS：在网页下载慢，把下载链接复制到迅雷会很快）
 4. 打开pycharm，创建自己的第一个项目python_study
-
+5. 在该项目下创建第一个python代码，helloworld
