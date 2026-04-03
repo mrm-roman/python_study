@@ -45,17 +45,18 @@
 7. 输入输出：
     - 输出：`print()`
     - 输入：`input()`    注意：`input()` 得到的是字符串
+>[!tip]- 为什么 input() 默认得到的是字符串
+>因为它只认识“字符”，显式优于隐式
 ```python
 age = input("请输入年龄：")
 print(age)
 age = int(input("请输入年龄："))
 ```
 8. 格式化输出：
-    - 拼接
-    - `f-string`
-
+    - 拼接字符串和变量 `f-string`
 ```python
     name = "小明"
     age = 18
     print(f"我叫{name}，今年{age}岁")
+    print("我叫" + name + "，今年" + str(age) + "岁")  # 变量age需要转换成字符串，因为只有字符串才能连接字符串
 ```
